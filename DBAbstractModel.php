@@ -1,4 +1,3 @@
-
 <?php
 
 abstract class DBAbstractModel {
@@ -6,7 +5,6 @@ abstract class DBAbstractModel {
   private static $db_host = "labs.iam.cat";
   private static $db_user = "a16miqboipos_mbp";
   private static $db_pass = "ausias";
-  //const DBPASS = "r44t";
 
   protected $db_name;
 
@@ -43,9 +41,6 @@ abstract class DBAbstractModel {
     $result->close();
     $this->close_connection();
   }
-
-
-
 }
 
 ?>
