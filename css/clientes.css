@@ -1,0 +1,37 @@
+.formu{
+    margin-top: 2%;
+    display: flex;
+}
+
+#nombre{
+    max-width: 20%;
+}
+
+.main{
+    max-width: 30%;
+    margin-left: 1%;
+}
+
+label{
+    margin-left: 5%;
+}
+
+button{
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.modalInputs{
+    width: 70%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.modalLabels{
+    width: 20%;
+    text-align: right;
+}
+
+.ficha{
+    display: flex;
+}

@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <?php include("includes/includes.inc") ?>
     <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/clientes.css">
     <title>Ficha Clientes</title>
 </head>
 <body>
-    <label class="form-label">Nombre: </label>
-    <input type="text" name="nombre" id="nombre" class="form-control">
+    <div class="formu">
+        <label class="form-label">Nombre: </label>
+        <input type="text" name="nombre" id="nombre" class="form-control main">
+        <label class="form-label">Apellidos: </label>
+        <input type="text" name="apellidos" id="apellidos" class="form-control main">
+        <button class="btn btn-primary bi bi-search" id="boton"></button>
+        <button class="btn btn-primary" id="cliente">Añadir Cliente</button>
+    </div>
     <br>
-    <label class="form-label">Apellidos: </label>
-    <input type="text" name="apellidos" id="apellidos" class="form-control">
-    <input type="submit" name="searchbtn" id="boton" class="btn btn-primary">
-
+    <div id="fichaModal"></div>
     <div id="ficha"></div>
 </body>
 </html>
