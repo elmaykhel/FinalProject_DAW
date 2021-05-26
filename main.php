@@ -8,14 +8,9 @@
     <title>L'Essència</title>
 </head>
 <body>
-    <div id="header"></div>
-
-    <div id="body">
-        <div id="lineaCentral">
-            <input type="image" id="img1" src="./img/cliente.png" onclick="location.href='clientes.php'"></input>
-        </div>
+    <h1 class="titulo">L'Essència</h1>
+    <div id="lineaCentral">
+        <input type="image" id="img1" src="./img/cliente.png" onclick="location.href='clientes.php'"></input>
     </div>
-
-    <div id="footer"></div>
 </body>
 </html>

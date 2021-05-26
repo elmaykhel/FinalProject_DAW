@@ -11,9 +11,9 @@
 </head>
 <body>
     <div class="formu">
-        <label class="form-label">Nombre: </label>
+        <label class="form-label mainLabel">Nombre: </label>
         <input type="text" name="nombre" id="nombre" class="form-control main">
-        <label class="form-label">Apellidos: </label>
+        <label class="form-label mainLabel">Apellidos: </label>
         <input type="text" name="apellidos" id="apellidos" class="form-control main">
         <button class="btn btn-primary bi bi-search" id="boton"></button>
         <button class="btn btn-primary" id="cliente">Añadir Cliente</button>
