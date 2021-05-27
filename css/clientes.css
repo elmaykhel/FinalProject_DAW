@@ -23,9 +23,20 @@ body{
     margin-left: 5%;
 }
 
-button{
+#boton{
+    background-color: #ff9900;
+    border: #ff9900;
+}
+
+#boton:hover{
+    border: #ff9900;
+}
+
+.button{
     margin-left: 1%;
     margin-right: 2%;
+    background-color: #ff9900;
+    border: #ff9900;
 }
 
 .modalInputs{
@@ -43,11 +54,26 @@ button{
     display: flex;
 }
 
-.btn{
+.button:hover{
     background-color: #ff9900;
-    border: #ff9900;
 }
 
-.btn:hover{
-    background-color: #ff9900;
+.cuadro{
+    text-align: center;
+    margin: 10% 30% 0 30%;
+    padding: 3%;
+    border: 0.2em #0a884f solid;
+    border-radius: 0.5em;
+    color: black;
+    font-size: 130%;
+    background-color: #62c799;
+}
+
+#tituloDatos{
+    text-align: left;
+}
+
+hr{
+    color: #0a884f;
+    border: 2px solid;
 }

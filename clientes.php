@@ -15,8 +15,8 @@
         <input type="text" name="nombre" id="nombre" class="form-control main">
         <label class="form-label mainLabel">Apellidos: </label>
         <input type="text" name="apellidos" id="apellidos" class="form-control main">
-        <button class="btn btn-primary bi bi-search" id="boton"></button>
-        <button class="btn btn-primary" id="cliente">Añadir Cliente</button>
+        <button class="btn btn-primary bi bi-search button" id="boton"></button>
+        <button class="btn btn-primary button" id="cliente">Añadir Cliente</button>
     </div>
     <br>
     <div id="fichaModal"></div>
