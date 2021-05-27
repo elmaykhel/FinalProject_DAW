@@ -11,7 +11,8 @@ window.onload = function(){
             let ficha = "";
             a = JSON.parse(res.data)
             if(a.dni!=null){
-                ficha = `<div class="cuadro"><h2 id="tituloDatos">Datos Cliente</h2><hr/><p>DNI: `+ a.dni +`</p><p>Nombre: `+ a.nombre +`</p><p>Apellidos: `+ a.apellidos +`</p><p>Correo: `+ a.correo +`</p><p>Telefono: `+ a.telefono +`</p></div>`;
+                ficha = `<div class="cuadro"><h2 id="tituloDatos">Datos Cliente</h2><hr/><p>DNI: `+ a.dni +`</p><p>Nombre: `
+                + a.nombre +`</p><p>Apellidos: `+ a.apellidos +`</p><p>Correo: `+ a.correo +`</p><p>Telefono: `+ a.telefono +`</p></div>`;
                 document.getElementById("ficha").innerHTML = ficha;
             } else {
                 console.log("null")

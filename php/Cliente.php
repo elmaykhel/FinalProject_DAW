@@ -43,5 +43,4 @@ class Cliente extends DBAbstractModel {
 		$this->execute_single_query($this->query);
 	}
 }
-
 ?>
